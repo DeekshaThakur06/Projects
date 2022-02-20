@@ -1,0 +1,20 @@
+
+public class protectedspecifier {
+  protected void display() {
+	  System.out.println("parent class called");
+  }
+  class child extends protectedspecifier{
+	  void show() {
+		  System.out.println("child class called");
+	  }
+  }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		protectedspecifier p = new child();
+		protectedspecifier p1 = new protectedspecifier();
+		p1.display();
+		p1.show();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class TypeCasting {
+      // Implicit type conversion
+	  byte b = 5;
+	  int i = b;
+	public static void main(String[] args) {
+		TypeCasting t = new TypeCasting();
+		System.out.println(t.i);
+
+	}
+
+}
